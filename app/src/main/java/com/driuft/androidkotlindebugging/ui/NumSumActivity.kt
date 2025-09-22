@@ -13,8 +13,8 @@ class NumSumActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_num_sum)
 
-        val a = 2
-        val b = "2" as Int
+        val a: Int = 2
+        val b: Int = 2
 
         resultText.text = "${sumOfTwo(a, b)}"
     }
